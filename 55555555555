@@ -1,0 +1,31 @@
+emergent-main.js:56
+ The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/stats' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/stats net::ERR_FAILED 500 (Internal Server Error)
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/areas' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/areas net::ERR_FAILED 500 (Internal Server Error)
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/positions' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/positions net::ERR_FAILED 500 (Internal Server Error)
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/stats' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/stats net::ERR_FAILED 500 (Internal Server Error)
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/milestones' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/milestones net::ERR_FAILED 500 (Internal Server Error)
+:3000/orgchart:1
+ Access to XMLHttpRequest at 'http://localhost:8001/api/headcount' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+emergent-main.js:531 
+ GET http://localhost:8001/api/headcount net::ERR_FAILED 500 (Internal Server Error)
+﻿
+
