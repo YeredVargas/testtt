@@ -1,0 +1,34 @@
+webpack compiled successfully
+Proxy error: Could not proxy request /undefined/api/stats from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/positions from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/areas from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/stats from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/headcount from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/milestones from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/positions from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/areas from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/headcount from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /undefined/api/milestones from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
+Proxy error: Could not proxy request /favicon.ico from localhost:3000 to http://localhost:8001/.
+See https://nodejs.org/api/errors.html#errors_common_system_errors for more information (ECONNREFUSED).
+
