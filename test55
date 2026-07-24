@@ -1,0 +1,83 @@
+(.venv) PS C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend> npm start
+
+> frontend@0.1.0 start
+> craco start
+
+(node:45356) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Starting the development server...
+
+(node:45356) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+        Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+        Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+Failed to compile.
+
+RangeError: C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\src\pages\OrgChart.jsx: Maximum call stack size exceeded
+ERROR in ./src/pages/OrgChart.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+RangeError: C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\src\pages\OrgChart.jsx: Maximum call stack size exceeded
+    at NodePath.setScope (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:124:18)
+    at NodePath.setContext (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:151:12)
+    at NodePath.pushContext (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:208:8)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:88:30)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitSingle (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:72:19)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:119:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitSingle (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:72:19)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:119:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:117:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitSingle (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:72:19)
+    at TraversalContext.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:119:19)
+    at traverseNode (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\traverse-node.js:130:17)
+    at NodePath.visit (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\path\context.js:93:52)
+    at TraversalContext.visitQueue (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:96:16)
+    at TraversalContext.visitMultiple (C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\frontend\node_modules\@babel\traverse\lib\context.js:68:17)
+
+webpack compiled with 1 error
+
+2026-07-24 09:56:43,536 [INFO] krem: Iniciando KREM Headcount Planner. Carpeta base: C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\backend
+2026-07-24 09:56:46,639 [INFO] krem: Archivo .env cargado (si existia) desde C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\backend\.env
+2026-07-24 09:56:46,814 [WARNING] krem: No se encontro carpeta 'dist' en C:\Users\balde011\Documents\Sistemas\KREM Headcount\krem-headcount\backend\dist; solo se serviran las rutas /api.
+INFO:     Started server process [34220]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     None:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     None:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+
+
+
